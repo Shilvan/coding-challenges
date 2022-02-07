@@ -19,3 +19,9 @@ def reverse_number(n):
         
     #convert to integer
     return int(reversedN)
+
+""" Better solution by someone else:
+def reverseNumber(n):
+    if n < 0: return -reverseNumber(-n)
+    return int(str(n)[::-1])
+"""
