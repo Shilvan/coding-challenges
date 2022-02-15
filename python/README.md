@@ -26,3 +26,11 @@ Would produce the same result as:
 lambda x: x + 2
 ```
 ### <a name="true-statement"></a> True statements:
+These functions have a Boolean condition as the return value returning either True or False
+```
+return x > 3
+```
+\*You can also have a function that uses an if else statement to return a value
+```
+return A+1 if A > B else A-1
+```
