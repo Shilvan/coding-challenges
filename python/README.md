@@ -5,7 +5,12 @@
 ### Map:
 It applies a function to all the elements of a list (convert it back to a list to get the result).
 ```
-list(map(function, list))
+map(function, list)
+```
+### Filter:
+It applies a [link](#true-statement) true statement function to a list and create a new list with the elements that satisfy the condition (convert it back to a list to get the result).
+```
+filter(lambda x: x > 3, list)
 ```
 
 ## Other
@@ -20,3 +25,4 @@ Would produce the same result as:
 ```
 lambda x: x + 2
 ```
+### <a name="true-statement"></a> True statements:
