@@ -8,7 +8,7 @@ It applies a function to all the elements of a list (convert it back to a list t
 map(function, list)
 ```
 ### Filter:
-It applies a [link](#true-statement) true statement function to a list and create a new list with the elements that satisfy the condition (convert it back to a list to get the result).
+It applies a [true statement](#true-statement) function to a list and create a new list with the elements that satisfy the condition (convert it back to a list to get the result).
 ```
 filter(lambda x: x > 3, list)
 ```
