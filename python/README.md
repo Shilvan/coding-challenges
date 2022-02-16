@@ -13,9 +13,8 @@ It applies a [true statement](#true-statement) function to a list and create a n
 filter(lambda x: x > 3, list)
 ```
 ### Reduce:
-It a applies a function that takes two arguments and reduces it to one, keeps on doing it, until the list is reduced to one. For example, getting the total of a list. It has to be imported:
+It a applies a function that takes two arguments and reduces it to one, keeps on doing it, until the list is reduced to one. For example, getting the total of a list. It has to be imported `From functools import reduce`.
 ```
-From functools import reduce
 reduce(lambda x, y: x + y, list)
 ```
 ### Reverse:
@@ -48,11 +47,18 @@ Would produce the same result as:
 lambda x: x + 2
 ```
 ### <a name="true-statement"></a> True statements:
-These functions have a Boolean condition as the return value returning either True or False
+These functions have a Boolean condition as the return value returning either True or False `return x > 3`.
+\*You can also have a function that uses an if else statement to return a value `return A+1 if A > B else A-1`.
+### Indexing and slicing
 ```
-return x > 3
+-3,-2,-1
+[a, b, c]
+0, 1, 2
 ```
-\*You can also have a function that uses an if else statement to return a value
-```
-return A+1 if A > B else A-1
-```
+You can get the first element by `list[0]` or `list[-3]`
+#### list[m:n]
+Return a portion of the list starting at `m` and going up to and not including `n`.
+If one of the values is ommited, it'll either start at the beginning or end at the last position.
+#### list[m:n:s]
+The third element `s` serves as a step. For example, `list[6:0:-2]` goes backward skipping one element, returning the elements at the position `6,4,2`.
+\*`list[::-1]` returns a reversed version of the list.
