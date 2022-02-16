@@ -12,6 +12,12 @@ It applies a [true statement](#true-statement) function to a list and create a n
 ```
 filter(lambda x: x > 3, list)
 ```
+### Reduce:
+It a applies a function that takes two arguments and reduces it to one, keeps on doing it, until the list is reduced to one. For example, getting the total of a list. It has to be imported:
+```
+From functools import reduce
+reduce(lambda x, y: x + y, list)
+```
 
 ## Other
 
