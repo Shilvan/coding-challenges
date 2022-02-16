@@ -25,6 +25,16 @@ It returns a reverse sequence as a "reversed iterator" intended to be used in a 
 list(reversed("abc")) #returns ["c", "b", "a"]
 ```
 
+## Data Types
+
+### Tupples vs Lists:
+List occupies more memory, tupples are immutable; they can't change. Tupple declaration is done separating elements by a comma, you can also use brackets to encase the tupple, although not needed: `x = ("a",)` or `x = "a",`.
+You can also assign the tupple's elements to variables:
+```
+age, gender, score = (21, "male", 99)
+```
+
+
 ## Other
 
 ### Lambda:
