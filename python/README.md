@@ -18,6 +18,12 @@ It a applies a function that takes two arguments and reduces it to one, keeps on
 From functools import reduce
 reduce(lambda x, y: x + y, list)
 ```
+### Reverse:
+It returns a reverse sequence as a "reversed iterator" intended to be used in a loop.
+```
+"".join(reversed("abc")) #returns "cba"
+list(reversed("abc")) #returns ["c", "b", "a"]
+```
 
 ## Other
 
