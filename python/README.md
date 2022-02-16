@@ -51,9 +51,9 @@ These functions have a Boolean condition as the return value returning either Tr
 \*You can also have a function that uses an if else statement to return a value `return A+1 if A > B else A-1`.
 ### Indexing and slicing
 ```
--3,-2,-1
-[a, b, c]
-0, 1, 2
+Index: -3,-2,-1
+List:  [a, b, c]
+Index: 0, 1, 2
 ```
 You can get the first element by `list[0]` or `list[-3]`
 #### list[m:n]
