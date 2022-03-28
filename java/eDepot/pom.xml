@@ -1,0 +1,10 @@
+//Convert project to maven first
+<project>
+ <dependencies>
+  	<dependency>
+  		<groupId>org.mongodb</groupId>
+  		<artifactId>mongodb-driver-sync</artifactId>
+  		<version>4.5.1</version>
+  	</dependency>
+  </dependencies>
+</project>
